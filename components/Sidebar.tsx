@@ -1,7 +1,4 @@
-"use client"
-
 import Link from "next/link"
-import { cn } from "@/lib/utils"
 
 const navItems = [
     { name: "Home", href: "/" },
@@ -17,7 +14,7 @@ const navItems = [
 
 export default function Sidebar() {
     return (
-        <div className="w-80 bg-[#11455D] text-white flex flex-col h-screen">
+        <div className="w-80 bg-[#11455D] text-white flex flex-col justify-between h-screen">
             <nav className="flex-1 p-4 space-y-1 mt-12">
                 {navItems.map((item) => (
                     <Link
@@ -34,6 +31,9 @@ export default function Sidebar() {
                     </Link>
                 ))}
             </nav>
+            <span>
+                Logout
+            </span>
         </div>
     )
 }

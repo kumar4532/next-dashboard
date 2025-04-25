@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 
 const QuestionsSection = () => {
@@ -38,7 +39,7 @@ const QuestionsSection = () => {
                             <div className="relative mr-3">
                                 <div className="w-2 h-2 bg-blue-400 rounded-full absolute -left-4 top-1/2 transform -translate-y-1/2"></div>
                                 <div className="relative">
-                                    <img src={item.avatar} alt={item.user} className="w-12 h-12 rounded-full" style={{ backgroundColor: item.background }} />
+                                    <Image src={item.avatar} alt={item.user} className="rounded-full" width={40} height={40} style={{ backgroundColor: item.background }} />
                                     {item.online && (
                                         <div className="absolute bottom-0 right-0 w-3 h-3 bg-green-500 rounded-full border-2 border-white"></div>
                                     )}
