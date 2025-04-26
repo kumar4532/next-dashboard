@@ -53,21 +53,21 @@ const FranchiseesCard = () => {
                 <div className="flex justify-between items-center">
                     <div className="flex items-center space-x-2">
                         <span className="w-2 h-2 rounded-full bg-[#1F7EAA]"></span>
-                        <span className="text-base text-gray-700">Stage 1 (Initial Inquiry)</span>
+                        <span className="text-sm text-gray-700">Stage 1 (Initial Inquiry)</span>
                     </div>
                     <span className="text-lg font-semibold text-gray-900">02</span>
                 </div>
                 <div className="flex justify-between items-center">
                     <div className="flex items-center space-x-2">
                         <span className="w-2 h-2 rounded-full bg-[#2FBDFF]"></span>
-                        <span className="text-base text-gray-700">Stage 2 (Document Submission)</span>
+                        <span className="text-sm text-gray-700">Stage 2 (Document Submission)</span>
                     </div>
                     <span className="text-lg font-semibold text-gray-900">07</span>
                 </div>
                 <div className="flex justify-between items-center">
                     <div className="flex items-center space-x-2">
                         <span className="w-2 h-2 rounded-full bg-[#97DEFF]"></span>
-                        <span className="text-base text-gray-700">Stage 3 (Training)</span>
+                        <span className="text-sm text-gray-700">Stage 3 (Training)</span>
                     </div>
                     <span className="text-lg font-semibold text-gray-900">05</span>
                 </div>

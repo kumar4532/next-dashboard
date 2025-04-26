@@ -53,7 +53,7 @@ const QuestionsSection = () => {
                                 <p className="text-gray-500 text-sm">{item.username}</p>
                             </div>
                         </div>
-                        <p className="text-gray-700">{item.question}</p>
+                        <p className="text-gray-700 text-sm">{item.question}</p>
                     </div>
                 ))}
             </div>
