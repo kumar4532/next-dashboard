@@ -39,9 +39,9 @@ const LeadsCard = () => {
                             <Avatar className="w-8 h-8 mr-1.5 md:mr-3">
                                 <AvatarImage src={prospect.avatar} alt={prospect.name} />
                             </Avatar>
-                            <span className="font-normal">{prospect.name}</span>
+                            <span className="font-normal text-base">{prospect.name}</span>
                         </div>
-                        <div className="text-gray-600 text-xs md:text-sm">
+                        <div className="text-gray-600 text-xs">
                             Stage: <span className='text-black'>{prospect.stage}</span>
                         </div>
                     </div>
