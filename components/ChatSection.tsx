@@ -4,7 +4,7 @@ import React from 'react'
 
 const ChatSection = () => {
     return (
-        <div className='bg-[#F9FAFB] w-full lg:w-[68%] flex flex-col justify-center items-center space-y-6 mt-6 md:mt-0'>
+        <div className='bg-[#F9FAFB] w-full lg:w-[68%] flex flex-col justify-center items-center space-y-6 mt-6 md:mt-0 pb-2.5 md:pb-0'>
             <Image src="/Logo.png" alt="logo" width={60} height={60} />
             <h1 className='md:text-3xl text-xl font-semibold'>Welcome to the AI Chat Assistant</h1>
             <div className="relative w-[80%]">

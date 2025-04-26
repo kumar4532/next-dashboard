@@ -27,21 +27,21 @@ const LeadsCard = () => {
     ];
 
     return (
-        <div className="rounded-xl border border-gray-200 p-6 shadow-sm bg-white">
+        <div className="rounded-xl border border-gray-200 p-4 md:p-6 shadow-sm bg-white">
             <h2 className="text-lg font-semibold mb-4">Prospect Leads</h2>
             <div className="space-y-3">
                 {prospects.map(prospect => (
                     <div
                         key={prospect.id}
-                        className="flex items-center justify-between p-3 bg-gray-100 rounded-lg"
+                        className="flex items-center justify-between p-2 md:p-3 bg-gray-100 rounded-lg"
                     >
                         <div className="flex items-center">
-                            <Avatar className="w-8 h-8 mr-3">
+                            <Avatar className="w-8 h-8 mr-1.5 md:mr-3">
                                 <AvatarImage src={prospect.avatar} alt={prospect.name} />
                             </Avatar>
                             <span className="font-normal">{prospect.name}</span>
                         </div>
-                        <div className="text-gray-600 text-sm">
+                        <div className="text-gray-600 text-xs md:text-sm">
                             Stage: <span className='text-black'>{prospect.stage}</span>
                         </div>
                     </div>

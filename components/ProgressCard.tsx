@@ -15,7 +15,7 @@ const ProgressCard = () => {
     ];
 
     return (
-        <div className='border border-gray-300 rounded-lg p-6 flex flex-col items-center justify-center md:w-80 w-full'>
+        <div className='border border-gray-300 rounded-lg p-4 md:p-6 flex flex-col items-center justify-center md:w-80 w-full'>
             <h1 className='mb-6 font-semibold text-lg'>Account Progress</h1>
             <ProgressCircle />
             <div className="space-y-6 w-full pt-4 mt-4 border-t border-gray-200">

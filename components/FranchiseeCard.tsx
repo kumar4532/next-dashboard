@@ -26,7 +26,7 @@ const FranchiseesCard = () => {
     ];
 
     return (
-        <div className="bg-white rounded-xl py-6 px-5 w-full space-y-4 border ">
+        <div className="bg-white rounded-xl p-4 md:p-6 w-full space-y-4 border ">
             <div className="flex items-start">
                 <div className="w-full">
                     <h2 className="text-lg font-semibold text-gray-900">Total Franchisees Onboard</h2>

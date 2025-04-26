@@ -10,7 +10,7 @@ import Navbar from "@/components/Navbar";
 import ProgressCard from "@/components/ProgressCard";
 import QuestionsSection from "@/components/QuestionsSection";
 import Sidebar from "@/components/Sidebar";
-import { Menu } from "lucide-react"; // optional icon
+import { Menu } from "lucide-react";
 
 export default function Home() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className="w-full h-screen flex flex-row overflow-hidden">
       <div className={`fixed md:relative z-50 transition-transform duration-300 ${sidebarOpen ? "translate-x-0" : "-translate-x-full"
-        } md:translate-x-0`}>
+        } md:translate-x-0 h-screen`}>
         <Sidebar />
       </div>
 
@@ -42,7 +42,7 @@ export default function Home() {
 
         <hr className="mb-8" />
 
-        <div className="px-8 flex flex-col md:flex-row justify-center gap-6">
+        <div className="px-6 md:px-8 flex flex-col md:flex-row justify-center gap-6">
           <ProgressCard />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:w-[70%] w-full">
             <FranchiseesCard />
