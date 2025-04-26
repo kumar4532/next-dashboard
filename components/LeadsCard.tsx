@@ -36,7 +36,7 @@ const LeadsCard = () => {
                         className="flex items-center justify-between p-2 md:p-3 bg-gray-100 rounded-lg"
                     >
                         <div className="flex items-center">
-                            <Avatar className="w-8 h-8 mr-1.5 md:mr-3">
+                            <Avatar className="w-8 h-8 mr-1.5 md:mr-2">
                                 <AvatarImage src={prospect.avatar} alt={prospect.name} />
                             </Avatar>
                             <span className="font-normal text-base">{prospect.name}</span>
