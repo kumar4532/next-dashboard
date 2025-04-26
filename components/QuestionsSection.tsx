@@ -26,7 +26,7 @@ const QuestionsSection = () => {
     ];
 
     return (
-        <div className="w-[32%]">
+        <div className="lg:w-[32%] w-full">
             <div className="flex justify-between items-center px-4 py-3 border-b">
                 <h2 className="font-semibold text-lg">Pending Questions</h2>
                 <span className="bg-blue-400 text-white px-2 py-0.5 rounded-md text-sm">02</span>
